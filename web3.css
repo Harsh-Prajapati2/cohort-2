@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    padding: 15px 12px;
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    
+    
+}
+
+
+
+.card{
+height: 250px;
+width: 150px;    
+padding: 20px;
+text-align: center;
+align-items: center;
+justify-content: center;
+background-color: white;
+flex-direction: column;
+flex-shrink: 0;
+box-shadow: 11px 11px 20px rgb(227, 19, 105);
+}
+
+.card img{
+    height :35%;
+    width: 75%;
+    border-radius: 50%;
+    
+
+
+    
+}
+
+.card h2{
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+
+.card p{
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: 540;
+    text-align: center;
+}
+
+.card button{
+    padding: 7px 15px;
+    border-radius: 50px;
+    border-color: rgb(211, 72, 37);
+    background-color:rgb(212, 164, 205) ;
+
+}
+
+.card button:hover{
+    color:aqua;
+    background-color: transparent;
+}
