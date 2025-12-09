@@ -83,6 +83,6 @@ box-shadow: 11px 11px 20px rgb(227, 19, 105);
 }
 
 .card:hover{
-    background-image: linear-gradient(rgba(210, 46, 46, 0.801), rgba(85, 141, 32, 0.44), rgba(143, 143, 30, 0.637));
-    transition: 20s;
+    background-image: linear-gradient(rgba(210, 46, 46, 0.801), rgba(85, 141, 32, 0.44), rgba(179, 179, 48, 0.785));
+    transition-duration: -git 10ms;
 }
