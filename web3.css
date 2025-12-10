@@ -37,13 +37,14 @@ background-color: white;
 flex-direction: column;
 flex-shrink: 0;
 box-shadow: 11px 11px 20px rgb(227, 19, 105);
+transition: all ease 1s;
 }
 
 .card img{
-    height :40%;
-    width: 90%;
+    height :100px;
+    width: 100px;
     padding: 5px;
-    border-radius: 15%;
+    border-radius: 50%;
     object-fit: cover;
     
     
@@ -86,6 +87,7 @@ box-shadow: 11px 11px 20px rgb(227, 19, 105);
 }
 
 .card:hover{
-    background-image: linear-gradient(rgba(210, 46, 46, 0.801), rgba(85, 141, 32, 0.44), rgba(179, 179, 48, 0.785));
-    transition-duration: -git 10ms;
+    background-color: rgba(134, 67, 67, 0.848);
+    /* background: linear-gradient(rgba(210, 46, 46, 0.801), rgba(85, 141, 32, 0.44), rgba(179, 179, 48, 0.785)); */
+    /* transition: all ease 10s; */
 }
