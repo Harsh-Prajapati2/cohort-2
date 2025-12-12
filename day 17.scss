@@ -16,7 +16,7 @@ html, body{
     background-size: cover;
     background-position: center;
     color: rgb(92, 208, 29);
-    border: 20px solid black;
+    border: 20px dotted black;
 }
 
 
@@ -35,9 +35,9 @@ main{
         flex-grow: 5;
         background: linear-gradient(rgb(21, 173, 10), blue)
         background-size: cover;
-        border: 5px solid black;
+        border: 20px dotted red;
         transition: all ease 0.5s;
-        overflow: hidden;
+        
     }
 
     section:nth-child(1){

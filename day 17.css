@@ -12,17 +12,17 @@ html, body {
 main {
   height: 100%;
   width: 100%;
-  background-color: rgb(99, 9, 40);
+  background-color: rgb(61, 97, 137);
   display: flex;
-  gap: 1px;
+  gap: 5px;
   overflow: hidden;
 }
 main section {
   height: 100%;
   flex-grow: 5;
   background-size: cover;
-  color: rgb(61, 15, 15);
-  border: 5px solid black;
+  color: rgb(132, 41, 202);
+  border: 2px solid rgb(51, 114, 61);
   transition: all ease 0.5s;
   overflow: hidden;
 }
