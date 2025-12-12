@@ -135,81 +135,56 @@ main{
     }
 
     
-    #page-2{
-        // grid-area: page-2;
-        // height: 90%;
-        // width: 100%;
-        // background-color: #e68e0af3;
-        // display: contents; 
+    
 
-        #growth{
-            grid-area: growth;
+    #growth{
+        grid-area: growth;
         // height: 30%;
         // width: 100%;
-            background-color: blue;
-        }
+        background-color: blue;
+    }
 
-        #about2{
-            grid-area: about2;
+    #about2{
+        grid-area: about2;
         // height: 90%;
         // width: 100%;
-            background-color: rgb(40, 136, 171);
-        }
+        background-color: rgb(40, 136, 171);
     }
 
-    #page-3{
-        // grid-area: page-3;
-        // height: 100%;
-        // width: 100%;
-        // background-color: #e81ab8;
-        // display: contents;     
+    
 
-        #explore{
-            grid-area: explore;
-            background-color: rgb(67, 3, 3);
-        }
-
-        #employes{
-            grid-area: employes;
-            background-color: #32cc10;
-        }
+    #explore{
+        grid-area: explore;
+        background-color: rgb(67, 3, 3);
     }
 
-    #page-4{
-        // grid-area: page-4;
-        // height: 80%;
-        // width: 100%;
-        // background-color: chocolate;
-        // display: contents; 
+    #employes{
+        grid-area: employes;
+        background-color: #32cc10;
+    }
 
-        #milestone{
-            grid-area: milestone;
-            background-color: rgb(45, 5, 79);
-        }
+    
 
-        #info{
+    #milestone{
+        grid-area: milestone;
+        background-color: rgb(41, 9, 68);
+    }
+
+    #info{
             // grid-area: info;
-            background-color: rgb(223, 17, 27);
-        }
+        background-color: rgb(223, 17, 27);
     }
 
-    #page-5{
-        // grid-area: page-5;
-        // height: 110%;
-        // width: 100%;
-        // background-color: rgb(220, 7, 7);
-        
 
-        #author{
-            grid-area: author;
-            background-color: rgb(1, 239, 1);
-        }
-
-        #contact{
-            grid-area: contact;
-            background-color: rgb(197, 14, 69);
-        }
+    #author{
+        grid-area: author;
+        background-color: rgb(1, 239, 1);
     }
+    #contact{
+        grid-area: contact;
+        background-color: rgb(197, 14, 69);
+    }
+
 
     footer{
         grid-area: footer;

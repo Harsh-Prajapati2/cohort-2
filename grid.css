@@ -91,34 +91,34 @@ main #figure1 {
   grid-area: figure1;
   background-color: purple;
 }
-main #page-2 #growth {
+main #growth {
   grid-area: growth;
   background-color: blue;
 }
-main #page-2 #about2 {
+main #about2 {
   grid-area: about2;
   background-color: rgb(40, 136, 171);
 }
-main #page-3 #explore {
+main #explore {
   grid-area: explore;
   background-color: rgb(67, 3, 3);
 }
-main #page-3 #employes {
+main #employes {
   grid-area: employes;
   background-color: #32cc10;
 }
-main #page-4 #milestone {
+main #milestone {
   grid-area: milestone;
-  background-color: rgb(45, 5, 79);
+  background-color: rgb(41, 9, 68);
 }
-main #page-4 #info {
+main #info {
   background-color: rgb(223, 17, 27);
 }
-main #page-5 #author {
+main #author {
   grid-area: author;
   background-color: rgb(1, 239, 1);
 }
-main #page-5 #contact  {!important
+main #contact {
   grid-area: contact;
   background-color: rgb(197, 14, 69);
 }
