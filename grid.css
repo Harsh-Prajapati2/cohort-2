@@ -16,7 +16,7 @@ main {
   background-color: red;
   display: grid;
   row-gap: 0;
-  grid-template-rows: 10% 25% 65% 30% 60% 20% 80% 80% 50% 60% 40%;
+  grid-template-rows: 10% 30% 80% 40% 85% 40% 100% 80% 50% 60% 40%;
   grid-template-areas: "header" "about " "figure1" "growth" "about2" "explore" "employes" "milestone" "author" "contact" "footer";
 }
 main header {
@@ -41,7 +41,7 @@ main header nav #logo {
 main header nav #logo img {
   height: 2.5vmax;
   border-radius: 0.5vmax;
-  margin-right: 0.5vmax;
+  margin-right: 1vmax;
 }
 main header nav #logo h1 {
   font-size: 2vmax;
@@ -60,7 +60,8 @@ main header nav #centre a {
   text-decoration: none;
   text-transform: capitalize;
   text-align: center;
-  font-size: 1.2vmax;
+  font-size: 1.4vmax;
+  font-weight: 405;
   color: black;
 }
 main header nav #right-nav {
@@ -72,40 +73,193 @@ main header nav #right-nav {
   justify-content: space-evenly;
 }
 main header nav #right-nav button {
-  background-color: rgb(55, 24, 255);
-  padding: 10px 20px;
+  background-color: transparent;
+  color: rgb(55, 24, 255);
+  padding: 9px 20px;
   border: 2px solid rgb(55, 24, 255);
   border-radius: 30px;
-  font-size: 1.3vmax;
-  font-weight: 400;
+  font-size: 1.2vmax;
+  font-weight: 550;
 }
 main header nav #right-nav button:hover {
-  color: rgb(55, 24, 255);
-  background-color: transparent;
+  color: white;
+  background-color: rgb(55, 24, 255);
 }
 main #about {
   grid-area: about;
-  background-color: blue;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main #about #about-us-title {
+  height: 100%;
+  width: 30%;
+  text-align: center;
+  font-size: 19px;
+  padding: 60px 38px;
+}
+main #about #about-us-content {
+  height: 100%;
+  width: 70%;
+  text-align: left;
+  padding: 60px 40px;
+}
+main #about #about-us-content p {
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  word-spacing: 3px;
+}
+main #about #about-us-content button {
+  background-color: transparent;
+  color: rgb(55, 24, 255);
+  padding: 9px 20px;
+  border: 2px solid rgb(55, 24, 255);
+  border-radius: 30px;
+  font-size: 1.2vmax;
+  font-weight: 550;
+  margin: 20px 10px;
+}
+main #about #about-us-content button:hover {
+  color: white;
+  background-color: rgb(55, 24, 255);
 }
 main #figure1 {
   grid-area: figure1;
-  background-color: purple;
+  background-color: white;
+  background-size: cover;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #figure1 img {
+  height: 100%;
+  width: 95%;
+  border-radius: 25px;
+  border: 0.1px solid rgb(164, 161, 161);
 }
 main #growth {
   grid-area: growth;
-  background-color: blue;
+  background-color: white;
+  padding: 100px 2px;
+}
+main #growth #growth-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main #growth #growth-heading h1 {
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-weight: 450;
+  text-align: center;
+}
+main #growth #paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1px 55px;
+  color: rgb(157, 150, 150);
+}
+main #growth #paragraph p {
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  text-align: center;
 }
 main #about2 {
   grid-area: about2;
-  background-color: rgb(40, 136, 171);
+  height: 100%;
+  width: 95%;
+  background-color: rgb(241, 239, 239);
+  display: flex;
+  margin: 1px 30px;
+  border-radius: 20px;
+}
+main #about2 #about-us-info1 {
+  width: 50%;
+  padding: 3px 30px;
+  background-color: transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main #about2 #about-us-info1 button {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  padding: 9px 20px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  font-size: 1.2vmax;
+  font-weight: 550;
+  margin: 20px 10px;
+}
+main #about2 #about-us-info1 #information {
+  padding-top: 180px;
+}
+main #about2 #about-us-info1 #information h1 {
+  font-size: 50px;
+  font-weight: normal;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+main #about2 #about-us-info1 #information p {
+  font-size: 25px;
+  font-weight: 480;
+  color: rgb(114, 102, 102);
+}
+main #about2 #figure2 {
+  width: 50%;
+  padding: 40px 40px;
+}
+main #about2 #figure2 img {
+  margin-left: 50px;
+  height: 100%;
+  width: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
 }
 main #explore {
   grid-area: explore;
-  background-color: rgb(67, 3, 3);
+  background-color: white;
+  padding: 20px 30px;
+}
+main #explore button {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  padding: 9px 20px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  font-size: 1.2vmax;
+  font-weight: 550;
+  margin: 20px 10px;
+}
+main #explore #expertise1 {
+  height: 60%;
+  width: 100%;
+  padding: 1px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #explore #expertise1 h1 {
+  width: 50%;
+  font-size: 45px;
+  font-weight: normal;
+  font-weight: 495;
+}
+main #explore #expertise1 p {
+  width: 50%;
+  font-size: 19px;
+  font-weight: 480;
+  color: rgb(114, 102, 102);
 }
 main #employes {
   grid-area: employes;
-  background-color: #32cc10;
+  background-color: white;
 }
 main #milestone {
   grid-area: milestone;
