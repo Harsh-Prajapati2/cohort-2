@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  display: grid;
+  row-gap: 0;
+  grid-template-rows: 10% 25% 65% 30% 60% 20% 80% 80% 50% 60% 40%;
+  grid-template-areas: "header" "about " "figure1" "growth" "about2" "explore" "employes" "milestone" "author" "contact" "footer";
+}
+main header {
+  grid-area: header;
+  background-color: white;
+}
+main header nav {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main header nav #logo {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main header nav #logo img {
+  height: 2.5vmax;
+  border-radius: 0.5vmax;
+  margin-right: 0.5vmax;
+}
+main header nav #logo h1 {
+  font-size: 2vmax;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main header nav #centre {
+  height: 100%;
+  width: 55%;
+  padding-left: 11vmax;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main header nav #centre a {
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.2vmax;
+  color: black;
+}
+main header nav #right-nav {
+  height: 100%;
+  width: 25%;
+  margin-left: 2vmax;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main header nav #right-nav button {
+  background-color: rgb(55, 24, 255);
+  padding: 10px 20px;
+  border: 2px solid rgb(55, 24, 255);
+  border-radius: 30px;
+  font-size: 1.3vmax;
+  font-weight: 400;
+}
+main header nav #right-nav button:hover {
+  color: rgb(55, 24, 255);
+  background-color: transparent;
+}
+main #about {
+  grid-area: about;
+  background-color: blue;
+}
+main #figure1 {
+  grid-area: figure1;
+  background-color: purple;
+}
+main #page-2 #growth {
+  grid-area: growth;
+  background-color: blue;
+}
+main #page-2 #about2 {
+  grid-area: about2;
+  background-color: rgb(40, 136, 171);
+}
+main #page-3 #explore {
+  grid-area: explore;
+  background-color: rgb(67, 3, 3);
+}
+main #page-3 #employes {
+  grid-area: employes;
+  background-color: #32cc10;
+}
+main #page-4 #milestone {
+  grid-area: milestone;
+  background-color: rgb(45, 5, 79);
+}
+main #page-4 #info {
+  background-color: rgb(223, 17, 27);
+}
+main #page-5 #author {
+  grid-area: author;
+  background-color: rgb(1, 239, 1);
+}
+main #page-5 #contact  {!important
+  grid-area: contact;
+  background-color: rgb(197, 14, 69);
+}
+main footer {
+  grid-area: footer;
+  background-color: rgb(237, 174, 13);
+}/*# sourceMappingURL=grid.css.map */
