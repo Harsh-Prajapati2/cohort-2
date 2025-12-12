@@ -15,7 +15,7 @@ html, body{
     flex-grow: 5;
     background-size: cover;
     background-position: center;
-    color: red;
+    color: rgb(92, 208, 29);
     border: 20px solid black;
 }
 
@@ -24,18 +24,20 @@ html, body{
 main{
     height: 100%;
     width: 100%;
-    background-color: rgb(99, 9, 40);
+    background: linear-gradient(rgb(24, 150, 74), blue)
     display: flex;
     gap: 2px;
+    overflow: hidden;
     
 
     section{ 
         height: 100%;
         flex-grow: 5;
+        background: linear-gradient(rgb(21, 173, 10), blue)
         background-size: cover;
-        color: rgb(61, 15, 15);    
         border: 5px solid black;
-        transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+        transition: all ease 0.5s;
+        overflow: hidden;
     }
 
     section:nth-child(1){
@@ -45,13 +47,13 @@ main{
     }
 
     section:nth-child(2){
-        background-image: url(https://i.pinimg.com/736x/3f/28/7a/3f287a000945262cd30887d0566d12c6.jpg);
+        background-image: url(https://i.pinimg.com/1200x/23/32/b5/2332b50a3e96be70b24812f74aedd541.jpg);
         background-size: cover;
         background-position: center;
     }
 
     section:nth-child(3){
-        background-image: url(https://i.pinimg.com/736x/cc/fd/1e/ccfd1eaa39ca7848bf7660ea1488b04b.jpg);
+        background-image: url(https://i.pinimg.com/1200x/f8/9c/4c/f89c4c7a929bae7dd1709665b78b7516.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -63,7 +65,7 @@ main{
     }
 
     section:nth-child(5){
-        background-image: url(https://i.pinimg.com/736x/f0/ac/cc/f0acccdee427d7639448faff2f12b0c7.jpg);
+        background-image: url(https://i.pinimg.com/736x/2e/e7/bd/2ee7bdbed2122f918a02f31063b21754.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -71,6 +73,8 @@ main{
     section:hover{
         flex-grow: 8;
         cursor: pointer;
+        scale: 1.2
+        
     }
 }
 
