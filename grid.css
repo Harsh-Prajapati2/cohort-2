@@ -483,7 +483,7 @@ main #info {
 }
 main #author {
   grid-area: author;
-  background-color: rgb(1, 239, 1);
+  background-color: rgb(58, 5, 8);
 }
 main #contact {
   grid-area: contact;
